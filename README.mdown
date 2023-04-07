@@ -3,6 +3,12 @@
 csrutil enable --without kext
 ```
 
+# Load on Bootup
+```bash
+cp ./com.sieren.kext.DisableTurboBoost.plist /Library/LaunchDaemons
+chown root:wheel /Library/LaunchDaemons/com.sieren.kext.DisableTurboBoost.plist
+```
+
 Turbo Boost Disabler for Mac OS X
 =================================
 
