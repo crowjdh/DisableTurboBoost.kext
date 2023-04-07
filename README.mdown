@@ -1,3 +1,8 @@
+# Disable SIP
+```bash
+csrutil enable --without kext
+```
+
 Turbo Boost Disabler for Mac OS X
 =================================
 
